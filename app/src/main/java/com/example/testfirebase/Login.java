@@ -121,6 +121,6 @@ public class Login extends AppCompatActivity {
     }
 
     public void btnChooseOnClick(View view) {
-        startActivity(new Intent(view.getContext(),ChooseLogin.class));
+        startActivity(new Intent(view.getContext(),GoogleLogin.class));
     }
 }
